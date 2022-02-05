@@ -1,11 +1,12 @@
 import React from 'react';
-import "./App.css"
+import SearchResults from './components/SearchResults'
+
 
 export default function App() {
 
   return (
-    <div className='App'>
-      <input type='text' placeholder='Search...' />
+    <div className="bg-slate-300 h-screen flex justify-center ">
+    < SearchResults />
     </div>
   );
 }
