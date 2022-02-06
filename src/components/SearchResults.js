@@ -5,8 +5,8 @@ import ResultBox from './ResultBox';
 
 export default function SearchResults() {
 
-  const [results, setResults] = useState(data)
-  const [allResults, setAllResults] = useState([])
+  const [results, setResults] = useState([])
+  const [allResults, setAllResults] = useState(data)
 
   const filterResultsList = (type) => {
     const filterResults = allResults.filter((result) => {
@@ -18,11 +18,11 @@ export default function SearchResults() {
   return <div className="my-8 bg-white rounded h-fit w-9/12">
     <SearchBar filterResultsList={filterResultsList} />
     {results.map((type) => {
-    return (
-    <ResultBox 
-    key={type._id}
-    resultList={type} /> 
-    )
+      return (
+        <ResultBox
+          key={type._id}
+          resultList={type} />
+      )
     })}
   </div>;
 }
