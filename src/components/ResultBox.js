@@ -1,9 +1,13 @@
 import React from 'react';
 
-export default function ResultBox({ resultList }) {
-    return <div className='bg-white flex'>
-        <img className="h-16 w-16 object-cover ml-2 mb-2 rounded" src='https://source.unsplash.com/1600x900/?space-shuttle' alt='space' />
-        <div className='ml-2'> {resultList.name} <br></br>
-      {resultList.manufacturer} | Crew: {resultList.crew}</div>
+export default function ResultBox({ spaceshipList, spaceshipImage }) {
+    return <div className='bg-white flex mb-2'>
+        <img className="h-16 w-16 object-cover ml-2 rounded" src={spaceshipImage} alt='space' />
+        <div className="flex items-center">
+            <div>
+                <p className="ml-2 text-black font-bold"> {spaceshipList.name} </p>
+                <p className="ml-2 text-gray-600"> {spaceshipList.manufacturer} | Crew: {spaceshipList.crew} </p>
+            </div>
+        </div>
     </div>
 }
