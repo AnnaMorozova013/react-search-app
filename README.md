@@ -1,3 +1,30 @@
+# React Search App
+
+This is a single-page search app with a text field where the user can type text and the search results appear in a drop-down list below as an auto-suggest functionality. 
+
+![Screenshot 2022-02-08 at 12 21 06](https://user-images.githubusercontent.com/92206811/152968664-f987b748-d7ce-42ff-8695-cb84fdd379cd.png)
+
+![Screenshot 2022-02-08 at 12 21 50](https://user-images.githubusercontent.com/92206811/152968676-a32cdbd2-b23b-4478-9728-8304c35c83c8.png)
+
+Technology stack:
+
+Front-End
+
+- React 
+- Tailwind CSS
+- JavaScript
+
+Back-end
+
+- Node.js
+
+Other
+
+- Git and Github
+
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
