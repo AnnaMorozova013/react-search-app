@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function ResultBox({ spaceshipList, spaceshipImage }) {
+    
     return <div className='bg-white flex mb-2'>
         <img className="h-16 w-16 object-cover ml-2 rounded" src={spaceshipImage} alt='space' />
         <div className="flex items-center">
